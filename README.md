@@ -1,19 +1,17 @@
 
 # SpreadJSON
 
-Did you ever working on your `Google Sheets/Apps Script` And using those `getRange`, `setValue`, `setValues` and etc?
+Have you ever worked on your `Google Sheets/Apps Script` and used functions like `getRange`, `setValue`, `setValues`, etc.?
 
+This JavaScript script is designed to enable you to perform those actions directly on `Node.js`.
 
-This JS script will help you to do that directly on `Node.js`.
+`SpreadJSON` utilizes the popular `SheetJS` Node.js library to store your sheet in JSON format and provides familiar methods.
 
+Thus, this script simply allows you to store your sheet in JSON format and read or write to the sheet directly on Node.js.
 
-By `SpreadJSON` are designed to use a popular `SheetJS` Node.js library to stored your sheet in the format of JSON and provide a methods that you familiar.
+(It can be highly beneficial if you have an Apps Script project and want to migrate to Node.js for faster execution and flexibility.)
 
-So this script simply make you to be able to stored your sheet in the JSON format. And read or write to the sheet directly on Node.js.
-
-(It helps you a lot if you have Apps Script project and want to migrate to Node.js to run faster and wherever you want!)
-
-Caution: This project still not complete. There's a lot of features to add to make it more general and easy to use.
+[Caution] This project is still incomplete. There are many features to add to make it more general and easy to use.
 
 ## Prerequisites
 
@@ -46,7 +44,7 @@ And you have to install above 3 libraries for SpreadJSON to work
 
 Simply put SpreadJSON.js file on your project and include to your workspace.
 
-Caution:
+[Caution]
 <br>This script can only work for SheetJS's workbook that need to be in the format of JSON.
 <br>You can use `XLSX.utils.sheet_to_json` function to convert your SpreadJS's workbook to JSON format and stored it as JSON file for this script to read.
 
