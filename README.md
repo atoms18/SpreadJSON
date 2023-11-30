@@ -1,12 +1,22 @@
 
 # SpreadJSON
 
-> Did you ever working on your `Google Sheets/Apps Script` And using those `getRange`, `setValue`, `setValues` and etc?<br><br>
-> This JS script will help you to do that directly on `Node.js`.<br><br>
-> By `SpreadJSON` are designed to use a popular `SheetJS` Node.js library to stored your sheet in the format of JSON and provide a methods that you familiar.  
+Did you ever working on your `Google Sheets/Apps Script` And using those `getRange`, `setValue`, `setValues` and etc?
 
-This script use 3 dependencies which is `SheetJS` `fs` and `rwlock`.<br>
-Rwlock was used to implement an easy version of solution due to race condition problem.
+
+This JS script will help you to do that directly on `Node.js`.
+
+
+By `SpreadJSON` are designed to use a popular `SheetJS` Node.js library to stored your sheet in the format of JSON and provide a methods that you familiar.
+
+So this script simply make you to be able to stored your sheet in the JSON format. And read or write to the sheet directly on Node.js.
+
+(It helps you a lot if you have Apps Script project and want to migrate to Node.js to run faster and wherever you want!)
+
+Caution: This project still not complete. There's a lot of features to add to make it more general and easier to use.
+
+> This script use 3 dependencies which is `SheetJS` `fs` and `rwlock`.<br>
+> Rwlock was used to implement an easy version of solution due to race condition problem.
 
 ## Prerequisites
 
