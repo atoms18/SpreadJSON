@@ -71,7 +71,7 @@ range.getCell(1, 5).getValue()
 
 range.getCell(2, 1).setValue("Bob")
 range.getCell(2, 1).setValues(["Bob"])
-sheet.getRange(1, 50, 2, 2).setValues([
+sheet.getRange(1, 50, 2, 2).setValues([ // Use arrays of array
   ["Alice", 5],
   ["Demond", 10]
 ]);
