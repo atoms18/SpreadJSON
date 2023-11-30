@@ -13,7 +13,7 @@ So this script simply make you to be able to stored your sheet in the JSON forma
 
 (It helps you a lot if you have Apps Script project and want to migrate to Node.js to run faster and wherever you want!)
 
-Caution: This project still not complete. There's a lot of features to add to make it more general and easier to use.
+Caution: This project still not complete. There's a lot of features to add to make it more general and easy to use.
 
 > This script use 3 dependencies which is `SheetJS` `fs` and `rwlock`.<br>
 > Rwlock was used to implement an easy version of solution due to race condition problem.
