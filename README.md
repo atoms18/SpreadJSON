@@ -15,9 +15,6 @@ So this script simply make you to be able to stored your sheet in the JSON forma
 
 Caution: This project still not complete. There's a lot of features to add to make it more general and easy to use.
 
-> This script use 3 dependencies which is `SheetJS` `fs` and `rwlock`.<br>
-> Rwlock was used to implement an easy version of solution due to race condition problem.
-
 ## Prerequisites
 
 This project requires NodeJS.
@@ -29,7 +26,9 @@ try running the following command.
 $ node -v
 v20.10.0
 ```
-
+> This script use 3 dependencies which is `SheetJS` `fs` and `rwlock`.<br>
+> Rwlock was used to implement a basic solution to \`race condition\` problem.
+> 
 And you have to install above 3 libraries for SpreadJSON to work
 
 ## Table of contents
