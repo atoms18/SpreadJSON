@@ -46,7 +46,7 @@ Simply put SpreadJSON.js file on your project and include to your workspace.
 
 [Caution]
 <br>This script can only work for SheetJS's workbook that need to be in the format of JSON.
-<br>You can use `XLSX.utils.sheet_to_json` function to convert your SpreadJS's workbook to JSON format and stored it as JSON file for this script to read.
+<br>You can use `XLSX.utils.sheet_to_json` function to convert your SpreadJS's workbook to JSON format and stored it as JSON file for this script to be able to read.
 
 ### Example
 
